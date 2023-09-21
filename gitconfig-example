@@ -1,3 +1,4 @@
+
 [diff "freecad-notice"]
 	command = "/bin/echo \"NOTE: diff FCStd files by running: git difftool --tool=freecad -d\" && true"
 	binary = true
@@ -11,3 +12,4 @@
 
 [difftool]
 	prompt = false
+
