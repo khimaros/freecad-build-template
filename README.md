@@ -20,7 +20,7 @@ git difftool -x freecad-difftool -d
 
 ## preparation
 
-add the contents of [example-gitconfig](example-gitconfig) to `~/.gitconfig`:
+add the contents of [gitconfig-example](gitconfig-example) to `~/.gitconfig`:
 
 ```shell
 cat gitconfig-example >> ~/.gitconfig
@@ -88,3 +88,5 @@ freecad-export examples/example-assembly.FCStd examples/example-assembly.iges
 check the log output on the console, make sure there are no `recompute` errors.
 
 inspect the **Modified** and **Previous** features to make sure they look as expected.
+
+run the build in interactive mode, `export INTERACTIVE=1` before invoking
